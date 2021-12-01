@@ -1,0 +1,269 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #130523;
+    margin: 0;
+}
+
+
+/* -------------------- FONT STYLES --------------------  */
+h1{
+    font-size: 76.29px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+h2{
+    font-size: 61.04px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+h3{
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+h4{
+    font-size: 39.06px;
+    font-weight: 700px;
+    line-height: 120%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 130%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+.pLarge{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+.pSmall{
+   font-size: 16px;
+   font-weight: 200;
+   line-height: 140%;
+   color: #f2e7fe;
+    opacity: 0.8; 
+    margin: 0;
+}
+
+.caption{
+    font-size: 12.8px;
+    font-weight: 200;
+    line-height: 140%;
+    color: #f2e7fe;
+    margin: 0;
+}
+
+.overline{
+    font-size: 16px;
+    line-height: 110%;
+    font-weight: 700;
+    color: #f2e7fe;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* -------------------- NAVIGATION --------------------  */
+
+.nav{
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navText{
+    text-decoration: none;
+    color: #f2e7fe;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 140%;
+    opacity: 0.8;
+    margin-left: 40px;
+}
+
+.navText:hover{
+    color: #D7B7FD;
+    border-bottom: 2px solid #D7B7FD;
+}
+
+/* -------------------- PAGE STYLES --------------------  */
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header{
+    max-width: 1188px;
+    margin: auto;
+    margin-top: 158px;
+    margin-bottom: 346px;
+}
+
+.scroll{
+    display: flex;
+    margin-top: 95px;
+}
+
+.aboutMe{
+    max-width: 1188px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.aboutMe img{
+    width: 378px;
+    height: auto;
+}
+
+.skills{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1188px;
+    
+}
+
+.tabButtons{
+    display: flex;
+}
+
+.tabLink{
+    margin-top: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #f2e7fe;
+    opacity: 0.7;
+    margin-right: 40px;
+    padding: 0;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
+.tabLinkActive{
+    opacity: 1;
+    font-weight: 600;
+    color: #d7b7fd;
+    border-bottom: 2px solid #D7B7FD;
+}
+
+.tabContent{
+    margin-top: 32px;
+}
+
+.education{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1188px;
+    display: flex;
+}
+
+.eduList{
+    display: flex;
+    align-items: top;
+    margin-top: 40px;
+}
+
+.work{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1188px;
+}
+
+.projects{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1188px;
+}
+
+.projectCard{
+    display: block;
+    background-color: #3b2258;
+    width: 586px;
+    height: 330px;
+    margin-left: 24px;
+}
+
+.projectTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectTitle a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #D7B7FD;
+    border-bottom: 2px solid #D7B7FD;
+}
+
+.projectTitle a:hover{
+    font-size: 16px;
+    font-weight: 600;
+    color: #f2e7fe;
+    border-bottom: 2px solid #f2e7fe;
+    cursor: pointer;
+}
+
+.projectTags{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.cardInner{
+    margin: 56px;
+}
+
+.contact{
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1188px;
+    text-align: center;
+}
+
+.contactLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.contactLinks img{
+    margin-right: 16px;
+}
+
+.footerLine{
+    background-color: #f2e7fe;
+    opacity: 0.4;
+    margin-top: 200px;
+}
+

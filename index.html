@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- Navigation -->
+            <div class="nav">
+                <div class="navLogo">
+                    <img src="images/logo.svg">
+                </div>
+
+                <!-- Link these to location on page -->
+                <div class="navLinks">
+                    <a href="#about" class="navText">01. About Me</a>
+                    <a href="#skills" class="navText">02. Skills</a>
+                    <a href="#education" class="navText">03. Education</a>
+                    <a href="#work" class="navText">04. Work</a>
+                    <a href="#projects" class="navText">05. Projects</a>
+                    <a href="#contact" class="navText">06. Contact</a>
+                </div>
+            </div>
+
+            <!-- Header Section -->
+            <div class="header">
+                <p class="overline" style="margin-bottom: 24px;">Hi there!</p>
+                <h1 style="margin-bottom: 32px;">I'm Annie Loxton</h1>
+                <p class="pSmall" style="max-width: 514px;">I’m a UI/UX designer from Cape Town, busy learning Full Stack Web Development. Read on to learn more about me!</p>
+
+                <div class="scroll">
+                    <img src="images/scrollArrow.svg" style="margin-right: 16px;"><h5 style="color: #d7b7fd;">Scroll for more</h5>
+                </div>
+            </div>
+
+            <!-- About Me -->
+            <div class="aboutMe" style="display: flex;" id="about">
+                <img src="images/aboutImage.png">
+                <div style="margin-left: 110px;">
+                    <h3><span style="color: #d7b7fd;">01.</span> About me</h3>
+                    <p class="pSmall" style="margin-top: 32px; max-width: 708px;">Hi! I’m Annie Loxton, and I enjoy creating cool things! I first became interested in Web Development during my studies where we learned basic HTML and CSS. Being able to create your own websites is such a great feeling!</p>    
+                    <p class="pSmall" style="margin-top: 32px; max-width: 708px;">After working as a UI/UX designer for a few years, I decided it was time to revisit Web Development, since all the projects that I worked on eventually get handed over to developers, and it would be such a bonus for me to understand everything that goes into the development process.</p> 
+                    <p class="pSmall" style="margin-top: 32px; max-width: 708px;">I would love to be able to add development into my skillset, and sell it alongside my website designs. Even if I don’t end up doing that, it will make me a better designer to understand how websites get developed.</p></p>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="skills" id="skills">
+                <h3><span style="color: #d7b7fd;">02.</span>  Skills</h3>
+                <!-- Tab Buttons -->
+                <div class="tabButtons">
+                    <a class="tabLink tabLinkActive" onclick="openTab(event,'graphic')">Graphic Design</a>
+                    <a class="tabLink" onclick="openTab(event,'interface')">Interface Design</a>
+                    <a class="tabLink" onclick="openTab(event,'development')">Development</a>
+                </div>
+
+                <!-- Tab Info -->
+                <div id="graphic" class="tabContent">
+                   <div style="display: flex; margin-bottom: 16px;">
+                       <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">Branding & Corporate Identity</p>
+                   </div>
+                   <div style="display: flex; margin-bottom: 16px;">
+                       <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">Illustration</p>
+                   </div> 
+                   <div style="display: flex;">
+                       <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">Flyers & Marketing Design</p>
+                   </div>
+                </div>
+                  
+                <div id="interface" class="tabContent" style="display:none">
+                    <div style="display: flex; margin-bottom: 16px;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">Project Conceptualisation</p>
+                    </div>
+                    <div style="display: flex; margin-bottom: 16px;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">Wireframing</p>
+                    </div> 
+                    <div style="display: flex;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">UI Design (Websites & Apps)</p>
+                    </div> 
+                </div>
+                  
+                <div id="development" class="tabContent" style="display:none">
+                    <div style="display: flex; margin-bottom: 16px;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">HTML</p>
+                    </div>
+                    <div style="display: flex; margin-bottom: 16px;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">CSS</p>
+                    </div> 
+                    <div style="display: flex;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pSmall">JavaScript</p>
+                    </div> 
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="education" id="education">
+                <div style="width: 50%;"></div>
+                <div>
+                    <h3><span style="color: #d7b7fd;">03.</span>  Education</h3>
+                    <div class="eduList">
+                        <div>
+                            <div style="display: flex;">
+                                <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pLarge">BA Fashion Design</p>
+                            </div>
+                            <p class="pSmall" style="margin-left: 40px; margin-top: 8px;">Graduated 2015</p>
+                            <p class="pSmall" style="margin-left: 40px; opacity: 0.6;">Fedisa</p>
+                        </div>
+                        <div style="margin-left: 72px;">
+                             <div style="display: flex;">
+                                <img src="images/bulletArrow.svg" style="margin-right: 16px;"><p class="pLarge">BA Interaction Design</p>
+                            </div>
+                            <p class="pSmall" style="margin-left: 40px; margin-top: 8px;">Graduated 2019</p>
+                            <p class="pSmall" style="margin-left: 40px; opacity: 0.6;">Cape Town Creative Academy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work -->
+            <div class="work" id="work">
+                <h3><span style="color: #d7b7fd;">04.</span>  Work</h3>
+                <div style="margin-top: 40px;">
+                    <div style="display: flex;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><h5>Product Designer at <span style="color: #d7b7fd;">MakeReign</span></h5>
+                    </div>
+                    <p class="pLarge" style="margin-left: 40px; margin-top: 8px;">July 2019 - May 2021</p>
+                    <p class="pSmall" style="max-width: 423px; margin-left: 40px; margin-top: 8px;">Worked on various projects, ranging from full product design, to just wireframing or UI design. Also did some illustrating and animating.</p>
+                </div>
+                <div style="margin-top: 64px;">
+                    <div style="display: flex;">
+                        <img src="images/bulletArrow.svg" style="margin-right: 16px;"><h5>Freelance <span style="color: #d7b7fd;">Designer</span></h5>
+                    </div>
+                    <p class="pLarge" style="margin-left: 40px; margin-top: 8px;">July 2019 - Current</p>
+                    <p class="pSmall" style="max-width: 423px; margin-left: 40px; margin-top: 8px;">I’ve also been working as a freelance designer, taking on many different projects, such as illustrations, corporate identity, and website designs.</p>
+                </div>
+            </div>
+
+            <!-- Projects -->
+            <div class="projects" id="projects">
+                <h3><span style="color: #d7b7fd;">05.</span>  Projects</h3>
+                <div style="display: flex; margin-top: 40px;">
+                    <img src="images/project01.png" style="width: 586px; height: auto;">
+                    <div class="projectCard">
+                        <div class="cardInner">
+                            <p class="overline" style="color: #d7b7fd; margin-bottom: 8px;">featured</p>
+                            <div class="projectTitle">
+                                <h4>Online Store</h4>
+                                <a href="https://github.com/AnnieLoxton/onlineStore.git" target="blank">VIEW</a>
+                            </div>
+                            <p class="pSmall" style="opacity: 0.7; margin-top: 32px; max-width: 477px;">
+                                Online store project created for HyperionDev coding bootcamp. Students were tasked with building an online store with a functional cart. 
+                            </p>
+                            <div class="projectTags">
+                                <p class="pSmall" style="margin-right: 32px">HTML</p>
+                                <p class="pSmall" style="margin-right: 32px">CSS</p>
+                                <p class="pSmall" style="margin-right: 32px">JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="contact" id="contact">
+                <h3>Contact Me</h3>
+                <p class="pSmall" style="margin-top: 24px;">Want to chat? Get in touch!</p>
+                <div class="contactLinks">
+                    <div style="display: flex;">
+                        <img src="images/phoneIcon.svg"><p class="pLarge" style="margin-right: 72px;">+27 82 442 9583</p>
+                    </div>
+                    <div style="display: flex;">
+                        <img src="images/mailIcon.svg"><p class="pLarge" style="margin-right: 72px;">loxtonannie@gmail.com</p>
+                    </div>
+                    <a href="https://www.linkedin.com/in/annie-loxton/" target="blank" style="text-decoration: none; display: flex;">
+                    <img src="images/socialIcon.svg"><p class="pLarge">LinkedIn</p>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <hr class="footerLine">
+            <p class="caption" style="opacity: 0.7; text-align: center; margin-top: 32px; margin-bottom: 32px;">Designed & Built by Annie Loxton</p>
+
+        </div>
+        
+        <script src="javascript.js"></script>
+    </body>
+</html>
